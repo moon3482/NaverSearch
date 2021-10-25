@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/blogFragment"
+    android:icon="@drawable/ic_baseline_book_24"
+    android:title="블로그"/>
+    <item android:id="@+id/cafeFragment"
+        android:icon="@drawable/ic_baseline_coffee_24"
+        android:title="카페"/>
+    <item android:id="@+id/imageFragment"
+        android:icon="@drawable/ic_baseline_fiber_new_24"
+        android:title="뉴스"/>
+    <item android:id="@+id/newsFragment"
+        android:icon="@drawable/ic_baseline_image_24"
+        android:title="이미지"/>
+</menu>

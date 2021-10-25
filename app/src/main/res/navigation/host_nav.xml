@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/host_nav"
+    app:startDestination="@id/blogFragment">
+    <fragment
+        android:id="@+id/blogFragment"
+        android:name="com.charlie.naversearch.fragment.BlogFragment"
+        android:label="BlogFragment" />
+    <fragment
+        android:id="@+id/cafeFragment"
+        android:name="com.charlie.naversearch.fragment.CafeFragment"
+        android:label="CafeFragment" />
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.charlie.naversearch.fragment.ImageFragment"
+        android:label="ImageFragment" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.charlie.naversearch.fragment.NewsFragment"
+        android:label="NewsFragment" />
+</navigation>
