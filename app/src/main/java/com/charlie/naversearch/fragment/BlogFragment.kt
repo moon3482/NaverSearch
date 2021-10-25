@@ -10,11 +10,14 @@ import com.charlie.naversearch.databinding.BlogFragmentBinding
 
 class BlogFragment : Fragment() {
 
+
+    //데이터 바인딩
     private val binding by lazy { BlogFragmentBinding.inflate(layoutInflater) }
     lateinit var reContext: Context
     override fun onAttach(context: Context) {
         super.onAttach(context)
         reContext = context
+
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
