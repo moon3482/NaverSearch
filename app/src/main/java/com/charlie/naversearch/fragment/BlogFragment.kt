@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import com.charlie.naversearch.databinding.BlogFragmentBinding
 
 class BlogFragment : Fragment() {
-
+//ㅁㄴㅇㅁㄴㅇㅁㄴㅇ
     private val binding by lazy { BlogFragmentBinding.inflate(layoutInflater) }
     lateinit var reContext: Context
     override fun onAttach(context: Context) {
